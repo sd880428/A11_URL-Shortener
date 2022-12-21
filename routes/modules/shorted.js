@@ -6,8 +6,7 @@ router.post('/', (req, res) => {
   res.render('shorted')
 })
 
-router.get('/:URLId', (req, res) => {
-  console.log(req.params.URLId)
-  res.render('index')
+router.get('/:url', (req, res) => {
+  res.render('error', { url: req.params.url })
 })
 module.exports = router

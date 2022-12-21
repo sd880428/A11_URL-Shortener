@@ -7,9 +7,13 @@ router.get('/', (req, res) => {
 })
 
 router.get('/:URLId', (req, res) => {
-  shortURL.findOne({ URLId: req.params.URLId })
+  const URLId = req.params.URLId
+  return shortURL.findOne({ URLId })
     .lean()
-    .then(shortURL => res.redirect(shortURL.originURL))
+    .then((shortURL) => {
+      shortURL ? res.redirect(shortURL.originURL) : res.redirect(`shorted/${URLId}`) 
+    })
+    .catch(error => console.error(error))
 })
 
 module.exports = router
