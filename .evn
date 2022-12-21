@@ -1,0 +1,1 @@
+process.env.MONGODB_URL = mongodb+srv://sd880428:12344321@cluster0.0wgbwqj.mongodb.net/short_URL_list?retryWrites=true&w=majority
