@@ -1,9 +1,10 @@
 const express = require('express')
 const router = express.Router()
+const generateUrl = require('../../generator_URL')
 
 router.post('/', (req, res) => {
-  req.body.url
-  res.render('shorted')
+  req.body.url // 原網址
+  res.render('shorted', { url: generateUrl() })
 })
 
 router.get('/:url', (req, res) => {
