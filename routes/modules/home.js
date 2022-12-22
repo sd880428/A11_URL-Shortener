@@ -13,7 +13,7 @@ router.get('/:URLId', (req, res) => {
     .then((shortURL) => {
       shortURL ? res.redirect(shortURL.originURL) : res.redirect(`shorted/${URLId}`) 
     })
-    .catch(error => console.error(error))
+    .catch(error => console.log(error))
 })
 
 module.exports = router
