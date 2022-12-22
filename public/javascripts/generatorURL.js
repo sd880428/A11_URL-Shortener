@@ -14,7 +14,6 @@ function generateUrl() {
   for (let i = 0; i < 5; i++) {
     password += sample(collection.split(''))
   }
-  console.log(password)
   return password
 }
 

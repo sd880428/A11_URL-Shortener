@@ -11,6 +11,7 @@ app.set('view engine', 'hbs')
 
 app.use(express.urlencoded({ extended: true }))
 app.use(routes)
+app.use(express.static('public'))
 
 app.listen(PORT, () => {
   console.log(`the server is start successfully!`)
