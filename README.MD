@@ -7,7 +7,7 @@
 + 程式編輯器: [Visual Studio Code](https://visualstudio.microsoft.com/zh-hant/ "Visual Studio Code") 
 + 使用框架: [express](https://www.npmjs.com/package/express)@4.16.4
 + 模板引擎: [express-handlebars](https://www.npmjs.com/package/express-handlebars)@3.0.0
-+ 資料庫ODM:[mongoose](https://www.npmjs.com/package/mongoose)@5.9.7
++ 資料庫ORM:[mongoose](https://www.npmjs.com/package/mongoose)@5.9.7
 ---
 ## 功能:
 + 使用者可以加任何網站縮成短網址
