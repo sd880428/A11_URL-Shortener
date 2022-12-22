@@ -1,6 +1,6 @@
 # 短網址產生器
-![index](public\img\index.jpg)
-![output](public\img\output.jpg)
+![index](https://raw.githubusercontent.com/sd880428/A11_URL-Shortener/master/public/img/index.jpg)
+![output](https://raw.githubusercontent.com/sd880428/A11_URL-Shortener/master/public/img/output.jpg)
 
 ---
 ## 規格
